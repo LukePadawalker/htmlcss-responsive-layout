@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica Neue, sans-serif;
+    font-family:  'Montserrat', 'Helvetica Neue', sans-serif;
 }
-
 /*  Generics  */
 
 .flex{
@@ -15,6 +14,7 @@
     font-weight:100;
     color: gray;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 
 
@@ -27,7 +27,11 @@ header{
     align-items: center;
 }
 
-
+.tiramisu{
+    font-size:2rem;
+    font-weight: bolder;
+    color: rgb(74, 39, 104);
+}
 
 .container{
     padding-top: 15px;
