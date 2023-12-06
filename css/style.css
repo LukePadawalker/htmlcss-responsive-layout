@@ -5,6 +5,17 @@
     font-family:Arial, Helvetica Neue, sans-serif;
 }
 
+/*  Generics  */
+
+.flex{
+    display: flex;
+}
+
+.light-text{
+    font-weight:100;
+    color: gray;
+    text-transform: uppercase;
+}
 
 
 
@@ -23,8 +34,15 @@ header{
     color: orange;
 }
 
-
-
-.jumbotron{
-    
+.video{
+    height: ;
+    justify-content: center;
+    align-items: center;
 }
+
+
+iframe{
+    width: 95%;
+    height: auto;
+}
+
