@@ -28,6 +28,35 @@ header{
 }
 
 
+
+.container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron{
+    background-color: rgb(232, 228, 228);
+    padding-bottom: 30px;
+}
+
+.j-container{
+    margin: 0 auto;
+    width: 93%;
+}
+
+
+.card{
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 2px gray;
+}
+
 .logo{
     font-family:'Nerko One', cursive;
     font-size:xx-large;
@@ -35,14 +64,83 @@ header{
 }
 
 .video{
-    height: ;
+    margin: 0 auto;
+    background-color: rgb(140, 99, 38);
+    width: 100%;
+    min-height: 300px;
     justify-content: center;
     align-items: center;
 }
 
 
 iframe{
-    width: 95%;
-    height: auto;
+    display: inline-block;
+    width: 100%;
+
+
 }
 
+
+.rectangle{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(239, 239, 239);
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+.upper-rectangle-content{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.kcal{
+    background-color: rgb(101, 43, 226);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.info{
+    color: orange;
+    font-weight: bold;
+}
+
+.gray-line{
+    width: 95%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: rgb(168, 165, 165);
+}
+
+.lower-rectangle-content{
+    padding: 10px;
+}
+
+.vegetariano{
+    font-size:smaller;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+ul{
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+
+li{
+    padding-top: 20px;
+}
