@@ -1,0 +1,129 @@
+@media screen and (min-width: 768px) {
+
+    header{
+        justify-content: flex-start;
+    }
+    
+
+    .logo{
+        padding-left: 20px;
+    }
+
+    
+    .left-content{
+        align-items: center;   
+    }
+    .tiramisu{
+        font-size: 2.2rem;
+    }
+
+    .dolce-tradizionale{
+        display: inline;
+        font-weight: bolder;
+        font-size: 2.2rem;
+        color: rgb(74, 39, 104);
+        padding-left: 5px;
+    }
+
+    .pubblicita{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        height: 40px;
+        background-image: url('/img/banner.png');
+        background-size: contain;
+    }
+
+    .first-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .first-list-item{
+        flex-basis: calc(100% / 3);
+    }
+
+    .body-image{
+        float: left;
+        padding: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    .buttons{
+        width: 95%;
+        margin: 0 auto;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .social-button{
+        text-decoration: none;
+        flex-grow: 1;
+        flex-basis: calc(100% / 5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+@media screen and (min-width: 992px){
+
+    .tiramisu{
+        font-size: 3rem;
+
+    }
+
+    .dolce-tradizionale{
+        font-size: 3rem;
+    }
+
+    .first-list{
+        display: block;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+
+    .info-container{
+        flex-basis: 40%;
+    
+    }
+
+    .bg-screen{
+        display: block;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+
+
+    .footer-list{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    
+    }
+    .footer-list-item{
+        align-items: center;
+    }
+
+
+}    

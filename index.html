@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nerko+One&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;300;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Document</title>
 </head>
 <body>
@@ -30,8 +31,11 @@
                 <div class="container flex">
 
 
-                    <div class="left-content">
+                    <div class="left-content flex">
                         <p class="tiramisu">Tiramisù</p>
+                        <p class="display-none dolce-tradizionale"> (Dolce Tradizionale)</p>                      
+
+  
                     </div>
 
 
@@ -39,7 +43,7 @@
                     <div class="right-content flex">
                         <i class="fa-solid fa-star"></i>
                         <p>4.6/5</p>
-                        <a href="">Rate</a>
+                        <a href="" class="rate">Rate</a>
                     </div>
 
 
@@ -50,58 +54,65 @@
                     <div class="video flex">
                         <iframe src="https://www.youtube.com/embed/JVT900H6s0g" title="HOW TO MAKE TIRAMISÙ - The ORIGINAL Italian recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div class="rectangle flex">
-                        <div class="upper-rectangle-content flex">
-                            <div class="kcal">
-                                <p>544 Kcal</p>
+                    <div class="info-container">
+                        <div class="rectangle flex">
+                            <div class="upper-rectangle-content flex">
+                                <div class="kcal">
+                                    <p>544 Kcal</p>
+                                </div>
+        
+                                <div class="info">
+                                    <p>+ info</p>
+                                </div>
+                            </div>
+                            <div class="gray-line"></div>
+    
+                            <div class="lower-rectangle-content">
+                                <p class="vegetariano"><i class="fa-solid fa-carrot"></i> VEGETARIANO</p>
+    
                             </div>
     
-                            <div class="info">
-                                <p>+ info</p>
-                            </div>
                         </div>
-                        <div class="gray-line"></div>
-
-                        <div class="lower-rectangle-content">
-                            <p class="vegetariano"><i class="fa-solid fa-carrot"></i> VEGETARIANO</p>
-
-                        </div>
+                       <!--  List -->
+                        <ul class="first-list">
+                            <li class="first-list-item"> 
+                                <p><i class="fa-solid fa-blender"></i> Difficoltà: Facile</p>
+                            </li>
+                            <li class="first-list-item">
+                                
+                                 <p><i class="fa-solid fa-clock"></i> Tempo: 40 min</p>
+                            </li>
+                            <li class="first-list-item">
+                                
+                                <p><i class="fa-solid fa-chart-pie"></i> Porzione per: 8 persone</p>
+                            </li>
+                            <li class="first-list-item">
+                                
+                                <p><i class="fa-solid fa-euro-sign"></i> Costo: Contenuto</p>
+                            </li>
+                            <li class="first-list-item">
+                                
+                                <p><i class="fa-solid fa-thumbtack"></i> Note: +2 ore di riposo in frigo</p>
+                            </li>
+                        </ul>
 
                     </div>
-                   <!--  List -->
-                    <ul>
-                        <li> 
-                            <p><i class="fa-solid fa-blender"></i> Difficoltà: Facile</p>
-                        </li>
-                        <li>
-                            
-                             <p><i class="fa-solid fa-clock"></i> Tempo: 40 min</p>
-                        </li>
-                        <li>
-                            
-                            <p><i class="fa-solid fa-chart-pie"></i> Porzione per: 8 persone</p>
-                        </li>
-                        <li>
-                            
-                            <p><i class="fa-solid fa-euro-sign"></i> Costo: Contenuto</p>
-                        </li>
-                        <li>
-                            
-                            <p><i class="fa-solid fa-thumbtack"></i> Note: 2+ ore di riposo in frigo</p>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section>
 
 
         <!--  Social Media Buttons  -->
-        <div class="buttons">
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <div class="buttons flex">
+            <a href="" class="social-button"><i class="fa-brands fa-facebook"></i><p class="display-none bg-screen">Facebook</p></a>
+            <a href="" class="social-button"><i class="fa-brands fa-twitter"></i><p class="display-none bg-screen">Twitter</p></a>
+            <a href="" class="social-button"><i class="fa-brands fa-instagram"></i><p class="display-none bg-screen">Instagram</p></a>
+            <a href="" class="social-button"><i class="fa-brands fa-pinterest"></i><p class="display-none bg-screen">Pinterest</p></a>
+            <a href="" class="social-button"><i class="fa-brands fa-youtube"></i><p class="display-none bg-screen">Youtube</p></a>
+        </div>
+
+        <div class="pubblicita display-none">
+            <!-- <img src="./img/banner.png" alt=""> -->
         </div>
     
         
@@ -109,23 +120,46 @@
         <div class="presentation">
             <h4>Presentation</h4>
             <div class="orange-line"></div>
-            <img src="./img/tiramisu.jpg" alt="">
-            <p>Back in the day, grandmothers used to Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, maiores dolores? Adipisci reprehenderit nulla eos, voluptatum blanditiis quo. Est illo neque praesentium earum voluptate quia quod, dolorem reprehenderit error excepturi.</p>
+            <img src="./img/tiramisu.jpg" alt="" class="body-image">
+            <p class="body-paragraph">Back in the day, grandmothers used to Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, maiores dolores? Adipisci reprehenderit nulla eos, voluptatum blanditiis quo. Est illo neque praesentium earum voluptate quia quod, dolorem reprehenderit error excepturi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, commodi et consequatur autem a amet similique dolorem repellat enim voluptatum eius nihil, quia necessitatibus odio nesciunt! Atque amet ipsam quos.
+            Necessitatibus optio provident consequuntur sapiente deleniti distinctio blanditiis ut iure, doloribus sunt. Suscipit voluptatum delectus praesentium deserunt rerum itaque modi non. Omnis recusandae soluta error aut aspernatur quibusdam natus fugiat.
+            Eos, alias! Officia fuga ipsam minima soluta, commodi voluptatum vero, iusto unde minus quam alias aut assumenda maiores omnis consequuntur esse nam laudantium nobis repellat error nemo quos quis quia!
+            Illo commodi exercitationem harum libero. Quam nam asperiores laudantium, eligendi nesciunt ab accusamus eius voluptate id, enim eaque voluptatum dicta! Dicta, amet maxime eum itaque quo laboriosam quis ducimus dolorem!
+            Veniam, in et neque nostrum pariatur ipsam vitae voluptas provident placeat ducimus voluptate saepe est consectetur consequuntur modi fugit nesciunt magnam aperiam dignissimos quibusdam porro dolorem. A eligendi repudiandae assumenda.
+            Aliquid atque deleniti, similique excepturi placeat impedit accusamus illo dolore facilis nostrum obcaecati, asperiores ab, velit voluptates! Dolorem at beatae sint eveniet repudiandae aspernatur eaque, voluptatibus magni quae. Aliquid, odio!
+            Minus incidunt ea dicta, quaerat fugit eligendi error porro ex quibusdam vero. Corporis dolor, veniam consequuntur expedita, optio veritatis beatae magni voluptatum mollitia vitae blanditiis enim repellendus explicabo esse suscipit.
+            In quisquam fugiat accusantium labore reiciendis nesciunt ab atque officia voluptas ad ut officiis beatae facilis praesentium repellat, quia adipisci repellendus, quo laudantium provident. Natus obcaecati commodi nemo reiciendis molestias.
+            Cupiditate harum mollitia facere possimus perferendis fuga veritatis inventore provident itaque ratione modi debitis quibusdam ea velit molestias dolorum accusamus natus repellat, temporibus corrupti! Minus corporis facilis laudantium quia. Minima.
+            Commodi possimus repellendus reprehenderit vero vitae labore neque culpa debitis illum tempora quae delectus velit consectetur, quidem perferendis ipsum rerum molestias dolor eum, ratione, aspernatur nisi in. Vero, quod officiis!
+            Tempora iste ipsum inventore! Veritatis tempora repudiandae, qui neque velit cum corrupti nesciunt blanditiis doloribus sed natus aliquid iste fugiat perferendis quo molestiae architecto doloremque, reiciendis, pariatur quaerat tempore nemo?
+            Eligendi illum voluptatem temporibus qui nesciunt quos fuga debitis facere delectus odio ab, reiciendis, placeat, porro hic! Officiis deleniti culpa veniam voluptatibus. Autem cumque fugit possimus optio. Placeat, delectus deserunt.
+            Accusantium delectus velit perspiciatis ullam temporibus, cupiditate incidunt officia modi placeat vero suscipit sit blanditiis consequuntur perferendis quibusdam aut at non praesentium sequi cumque ipsam similique! Vel eum quam illum.
+            Aspernatur, enim neque dolor voluptatum quo exercitationem. Similique laborum modi inventore praesentium laudantium qui impedit itaque magni adipisci error, libero vel aspernatur, eaque maxime esse, voluptatibus iste! Ullam, dignissimos adipisci.
+            Illo dolorum accusamus reprehenderit nostrum sed nisi libero sunt, eius numquam consequatur aliquam dolor non omnis voluptatem, et, repudiandae asperiores expedita est. Consequuntur nobis delectus eligendi amet eum, laudantium facere.
+            Consequuntur debitis dignissimos cumque quidem ipsam voluptates officia alias explicabo consequatur, molestiae dolores voluptate culpa quia reiciendis beatae tempora, adipisci dicta quas, itaque praesentium distinctio? At suscipit molestiae dolores modi.
+            Cupiditate sapiente optio, nobis quas consequatur aut fugiat quidem, repudiandae id sint facilis maiores. Repellendus earum sed sapiente fugiat quibusdam enim blanditiis ipsa modi ratione deserunt quae, totam at cumque.
+            Illum suscipit obcaecati ex corporis distinctio. Atque, commodi, mollitia laborum rerum possimus, sunt delectus ad doloremque minus unde cupiditate vitae sequi inventore animi tempora minima magni. Perspiciatis cupiditate veritatis tempore.
+            Impedit explicabo itaque molestias aliquid a quasi! Nam, voluptatibus alias accusantium error accusamus facilis sequi eos quasi eius ullam voluptatem optio ad placeat, quo saepe ex velit blanditiis, repudiandae nisi.
+            Sunt ab reprehenderit, quod nobis repellat perspiciatis vitae animi hic provident tempore consequatur est harum dolore repudiandae adipisci, vero suscipit sequi! Hic magnam, delectus minus voluptates iste explicabo illum autem?</p>
         </div>
 
 
 
         <!--   Footer   -->
         <footer>
-            <p>© 2021 Giaalo Booleano S.p.a</p>
-            <p>Via val dei Tali, 10, 88046 Lamezia Terme - VAT 439300306738</p>
-            <ul>
-                <li>Abous Us</li>
-                <li>Terms of Use</li>
-                <li>Privacy Policy</li>
-                <li>Cookie Policy</li>
-                <li>Disclaimer</li>
-            </ul>
+            <div class="footer-left">
+                <p>© 2021 Giallo Booleano S.p.a</p>
+                <p>Via val dei Tali, 10, 88046 Lamezia Terme - VAT 439300306738</p>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-list">
+                    <li class="footer-list-item">Abous Us</li>
+                    <li class="footer-list-item">Terms of Use</li>
+                    <li class="footer-list-item">Privacy Policy</li>
+                    <li class="footer-list-item">Cookie Policy</li>
+                    <li class="footer-list-item">Disclaimer</li>
+                </ul>
+            </div>
         </footer>
 
     </main>

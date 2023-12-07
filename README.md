@@ -16,7 +16,7 @@ IN MODALITA' TABLET (sopra i 768px)
 - compare il banner pubblicitario
 - l'immagine nella descrizione della ricetta viene circondata dal testo
 MODALITA' DESKTOP (sopra i 992px)
-- La grandezza el titolo della ricetta  aumenta ancora di più
+- La grandezza del titolo della ricetta aumenta ancora di più
 - Le informazioni della ricetta tornano a disporsi una sotto l'altra
 - Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro
 - Compaiono i nomi delle piattaforme social
